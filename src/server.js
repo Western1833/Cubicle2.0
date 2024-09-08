@@ -8,6 +8,8 @@ const app = express();
 
 setViewEngine(app);
 
+app.use(express.static('src/public'));
+
 app.get('/', (req, res) => {
     res.render('index');
 });
