@@ -1,10 +1,13 @@
+const Cube = require('../Models/Cube.js');
+
 const getCreateCube = (req, res) => {
     res.render('create');
 }
 
 const postCreateCube = (req, res) => {
-    console.log('cube created');
-    res.send('createform submitted');
+    let newCube = new Cube(req.body);
+
+    res.redirect('/');
 }
 
 module.exports = {
