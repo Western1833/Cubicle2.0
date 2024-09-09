@@ -8,7 +8,12 @@ const getAboutPage = (req, res) => {
     res.render('about');
 };
 
+const errorPage = (req, res) => {
+    res.render('404');
+}
+
 module.exports= {
     getHomePage,
-    getAboutPage
+    getAboutPage,
+    errorPage
 }
