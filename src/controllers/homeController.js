@@ -7,8 +7,16 @@ const getHomePage = (req, res) => {
     if(search){
         cubes = cubes.filter(cube => cube.name.toLowerCase().includes(search.toLowerCase()));
     }
+
+    if(from) {
+        cubes = cubes.filter(cube => cube.difficultyLevel >= from);
+    }
+
+    if(to) {
+        cubes = cubes.filter(cube => cube.difficultyLevel <= to);
+    }
     
-    res.render('index', {cubes, searchedWord: search});
+    res.render('index', {cubes, searchedWord: search, from, to});
 };
 
 const getAboutPage = (req, res) => {
@@ -17,7 +25,7 @@ const getAboutPage = (req, res) => {
 
 const errorPage = (req, res) => {
     res.render('404');
-}
+};
 
 module.exports= {
     getHomePage,

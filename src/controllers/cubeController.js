@@ -7,8 +7,8 @@ const getCreateCube = (req, res) => {
 
 const postCreateCube = (req, res) => {
     const {name, imageUrl, description, difficultyLevel} = req.body;
-    let newCube = new Cube(name, description, imageUrl, difficultyLevel);
-    Cube.save(newCube);
+    let cube = new Cube(name, description, imageUrl, difficultyLevel);
+    cube.save();
     res.redirect('/');
 };
 

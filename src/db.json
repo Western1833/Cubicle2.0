@@ -34,6 +34,13 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/1200px-Rubik%27s_cube.svg.png",
       "difficultyLevel": "3",
       "id": 5
+    },
+    {
+      "name": "star cube",
+      "description": "asdweq",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZIUk_2Yk243ZHSQJKmHTaE5GV7gCktIpyA&s",
+      "difficultyLevel": "1",
+      "id": 6
     }
   ]
 }
