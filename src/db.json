@@ -1,32 +1,39 @@
 {
-    "cubes": [
-        {
-            "id": 1,
-            "name": "Gan356 Air SM",
-            "description": "Cube 15x15",
-            "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
-            "difficultyLevel": "2"
-        },
-        {
-            "id": 2,
-            "name": "Eco-Dark",
-            "description": "Dark cube",
-            "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
-            "difficultyLevel": "1"
-        },
-        {
-            "id": 3,
-            "name": "Pyraminx",
-            "description": "Some cube",
-            "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
-            "difficultyLevel": "4"
-        },
-        {
-            "id": 4,
-            "name": "hp",
-            "description": "cube",
-            "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/LSkrjTVSI9TCaSHfuyT6FDaIAKg=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/8d/1c/8d1cc7cc-4e7a-48fd-ba01-c6a30f273e3a/gettyimages-153408104.jpg",
-            "difficultyLevel": "1"
-        }
-    ]
+  "cubes": [
+    {
+      "id": 1,
+      "name": "Gan356 Air SM",
+      "description": "Cube 15x15",
+      "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
+      "difficultyLevel": "2"
+    },
+    {
+      "id": 2,
+      "name": "Eco-Dark",
+      "description": "Dark cube",
+      "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
+      "difficultyLevel": "1"
+    },
+    {
+      "id": 3,
+      "name": "Pyraminx",
+      "description": "Some cube",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
+      "difficultyLevel": "4"
+    },
+    {
+      "id": 4,
+      "name": "hp",
+      "description": "cube",
+      "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/LSkrjTVSI9TCaSHfuyT6FDaIAKg=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/8d/1c/8d1cc7cc-4e7a-48fd-ba01-c6a30f273e3a/gettyimages-153408104.jpg",
+      "difficultyLevel": "1"
+    },
+    {
+      "name": "just a cube",
+      "description": "cube",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/1200px-Rubik%27s_cube.svg.png",
+      "difficultyLevel": "3",
+      "id": 5
+    }
+  ]
 }
