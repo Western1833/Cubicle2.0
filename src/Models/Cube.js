@@ -1,7 +1,7 @@
 const {Schema, model} = require('mongoose');
 
 const cubeSchema = new Schema({
-    cubeName: {
+    name: {
         type: String,
         required: true
     },
